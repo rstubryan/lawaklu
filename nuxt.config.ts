@@ -10,6 +10,7 @@ export default defineNuxtConfig({
               config: {},
               injectPosition: 'first',
               viewer: true,
-            }
+            },
+  modules: ['@nuxt/ui']
 })
 
