@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Lawaklu's Project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Develop by [Restu Bumi Ryan Ramadhan](https://www.linkedin.com/in/rstubryan/).
 
 ## Setup
 
