@@ -1,3 +1,5 @@
 <template>
-  <NuxtPage />
+  <body class="bg-white">
+    <NuxtPage />
+  </body>
 </template>
