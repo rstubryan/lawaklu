@@ -20,31 +20,34 @@ async function onSubmit(event: FormSubmitEvent<any>) {
 </script>
 
 <template>
-  <div class="mx-auto text-center mt-80">
-    <p class="text-black text-3xl font-bold">Login</p>
-  </div>
-
-  <div class="mx-auto w-96 mt-8">
-    <UForm :validate="validate" :state="state" @submit="onSubmit">
-      <UFormGroup
-        label="Email"
-        name="email"
-        :ui="{ label: { base: 'text-black font-semibold text-base' } }"
-      >
-        <UInput v-model="state.email" />
-      </UFormGroup>
-      <div class="mt-2">
+  <div class="flex items-center justify-center h-screen">
+    <div class="mx-auto w-96 mt-8">
+      <h1 class="text-black font-semibold text-center text-2xl mb-4">
+        Login
+      </h1>
+      <UForm :validate="validate" :state="state" @submit="onSubmit">
         <UFormGroup
-          label="Password"
-          name="password"
+          label="Email"
+          name="email"
           :ui="{ label: { base: 'text-black font-semibold text-base' } }"
         >
-          <UInput v-model="state.password" type="password" />
+          <UInput v-model="state.email" />
         </UFormGroup>
-      </div>
-      <div class="py-4">
-        <UButton type="submit" color="white" variant="solid"> Submit </UButton>
-      </div>
-    </UForm>
+        <div class="mt-2">
+          <UFormGroup
+            label="Password"
+            name="password"
+            :ui="{ label: { base: 'text-black font-semibold text-base' } }"
+          >
+            <UInput v-model="state.password" type="password" />
+          </UFormGroup>
+        </div>
+        <div class="py-4">
+          <UButton type="submit" color="white" variant="solid">
+            Submit
+          </UButton>
+        </div>
+      </UForm>
+    </div>
   </div>
 </template>
