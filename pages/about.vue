@@ -11,19 +11,4 @@
       voluptatum deserunt. Accusantium!
     </div>
   </section>
-
-  <div class="py-2"></div>
-
-  <section
-    id="about"
-    class="border border-black w-[450px] h-[120px] mx-auto py-2"
-  >
-    <div class="text-black mx-auto text-center w-96">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quam
-        quos cum sunt, sint numquam deserunt facilis? Ipsa dicta veniam fugiat
-        cum rerum. Nihil fuga dolores pariatur quibusdam ullam enim?
-      </p>
-    </div>
-  </section>
 </template>
