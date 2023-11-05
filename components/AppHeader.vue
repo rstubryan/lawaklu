@@ -44,10 +44,10 @@ const items = [
               <li class="font-semibold ml-4 mr-4 text-lime-400 hover:underline">
                 <NuxtLink to="/login" target="_blank">Home</NuxtLink>
               </li>
-              <li class="font-semibold mr-4 hover:underline">
+              <li class="font-semibold mr-4 text-white hover:underline">
                 <NuxtLink to="/register" target="_blank">Category</NuxtLink>
               </li>
-              <li class="font-semibold mr-4 hover:underline">
+              <li class="font-semibold mr-4 text-white hover:underline">
                 <NuxtLink to="/register" target="_blank">Category 2</NuxtLink>
               </li>
             </ul>
@@ -61,20 +61,30 @@ const items = [
               <UButton
                 icon="i-heroicons-plus"
                 size="sm"
-                color="primary"
+                color="white"
                 square
                 variant="solid"
               />
             </NuxtLink>
             <UDropdown
-              color="primary"
+              color="white"
               variant="solid"
               :items="items"
               :popper="{ placement: 'bottom-start' }"
+              :ui="
+                ({
+                  item: {
+                    active: 'text-lime-400 dark:text-lime-400',
+                  },
+                },
+                {
+                  background: 'bg-green-950',
+                })
+              "
             >
               <UButton
                 label="Profile"
-                color="primary"
+                color="white"
                 variant="ghost"
                 trailing-icon="i-heroicons-chevron-down-20-solid"
               />

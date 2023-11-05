@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-    .cbg-primary {
+    .bg-pri {
         @apply bg-lime-400;
     }
-    .cbg-secondary {
-        @apply bg-green-900;
+    .bg-sec {
+        @apply bg-green-950;
     }
 }
