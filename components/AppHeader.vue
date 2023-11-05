@@ -27,7 +27,9 @@ const items = [
           <div
             class="text-white md:text-3xl text-2xl md:justify-start font-semibold items-center md:inline-flex mx-auto"
           >
-            <NuxtLink to="/login" target="_blank">Lawaklu</NuxtLink>
+            <NuxtLink to="/login" target="_blank" class="md:block hidden"
+              >Lawaklu</NuxtLink
+            >
             <div
               class="md:border-r-8 md:border-lime-400 md:h-16 md:ml-12 md:block hidden"
               id="border"
@@ -38,15 +40,17 @@ const items = [
           <div
             class="md:w-96 md:h-5 md:justify-start md:items-start md:gap-10 md:inline-flex hidden"
           >
-            <div class="font-semibold ml-4 mr-4 text-lime-400 hover:underline">
-              <NuxtLink to="/login" target="_blank">Home</NuxtLink>
-            </div>
-            <div class="font-semibold mr-4 hover:underline">
-              <NuxtLink to="/register" target="_blank">Category</NuxtLink>
-            </div>
-            <div class="font-semibold mr-4 hover:underline">
-              <NuxtLink to="/register" target="_blank">Category 2</NuxtLink>
-            </div>
+            <ul class="flex gap-12">
+              <li class="font-semibold ml-4 mr-4 text-lime-400 hover:underline">
+                <NuxtLink to="/login" target="_blank">Home</NuxtLink>
+              </li>
+              <li class="font-semibold mr-4 hover:underline">
+                <NuxtLink to="/register" target="_blank">Category</NuxtLink>
+              </li>
+              <li class="font-semibold mr-4 hover:underline">
+                <NuxtLink to="/register" target="_blank">Category 2</NuxtLink>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="flex mr-6" id="button-kanan">
