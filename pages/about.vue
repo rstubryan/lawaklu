@@ -1,7 +1,7 @@
 <template>
   <AppHeader />
   <section id="" class="">
-    <div class="container mx-auto">
+    <!-- <div class="container mx-auto">
       <h1 class="text-black text-center font-semibold text-3xl">About</h1>
     </div>
     <div class="text-base text-black text-center bg-pri">
@@ -9,6 +9,6 @@
       laborum consequatur minima quas cupiditate perspiciatis nihil eligendi
       laudantium, iusto dolorum itaque facilis id blanditiis enim, temporibus
       voluptatum deserunt. Accusantium!
-    </div>
+    </div> -->
   </section>
 </template>
