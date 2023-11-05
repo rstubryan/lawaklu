@@ -67,20 +67,11 @@ const items = [
               />
             </NuxtLink>
             <UDropdown
-              color="white"
-              variant="solid"
               :items="items"
               :popper="{ placement: 'bottom-start' }"
-              :ui="
-                ({
-                  item: {
-                    active: 'text-lime-400 dark:text-lime-400',
-                  },
-                },
-                {
-                  background: 'bg-green-950',
-                })
-              "
+              :ui="{
+                background: 'bg-green-950 text-lime-400',
+              }"
             >
               <UButton
                 label="Profile"
