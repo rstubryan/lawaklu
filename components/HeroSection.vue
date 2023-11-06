@@ -40,13 +40,16 @@
         </div>
       </div>
       <div class="flex flex-row">
-        <div class="bg-lime-400 w-96 h-96 rounded-full">
-          <div
-            class="ml-16 bg-lime-400 w-96 h-96 rounded-full opacity-50"
-          ></div>
+        <div class="bg-lime-400 w-96 h-96 rounded-full opacity">
+          <div class="ml-16 bg-lime-400 w-96 h-96 rounded-full opacity-50">
+            <NuxtImg
+              src="/ketawa.png"
+              class="rounded-full w-[450px] opacity-50"
+            />
+          </div>
         </div>
-        <div class="">
-          <NuxtImg src="/ketawa.png" />
+        <div class="ml-20">
+          <NuxtImg src="/ketawa.png" class="rounded-full w-[450px]" />
         </div>
       </div>
     </div>
