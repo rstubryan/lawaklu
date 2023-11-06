@@ -25,9 +25,12 @@ const items = [
       >
         <div class="flex md:ml-6" id="judul-kiri">
           <div
-            class="text-white md:text-3xl text-2xl md:justify-start font-semibold items-center md:flex"
+            class="text-white md:text-3xl text-2xl md:justify-start font-black items-center md:flex"
           >
-            <NuxtLink to="/login" target="_blank" class="md:block hidden"
+            <NuxtLink
+              to="/login"
+              target="_blank"
+              class="md:block hidden font-raleway"
               >Lawaklu</NuxtLink
             >
             <div
@@ -36,9 +39,9 @@ const items = [
             ></div>
           </div>
         </div>
-        <div class="flex" id="menu-tengah">
+        <div class="flex font-raleway" id="menu-tengah">
           <div
-            class="md:w-full md:h-5 md:justify-start md:items-start md:flex md:gap-10 md:block hidden"
+            class="md:w-full md:h-5 md:justify-start md:items-start md:flex md:gap-10 hidden"
           >
             <ul class="md:flex gap-12">
               <li
@@ -55,7 +58,7 @@ const items = [
             </ul>
           </div>
         </div>
-        <div class="flex mr-6" id="button-kanan">
+        <div class="flex mr-6 font-raleway" id="button-kanan">
           <div
             class="md:w-full md:h-11 md:justify-end md:items-center md:flex md:gap-3.5"
           >
@@ -88,3 +91,12 @@ const items = [
     </div>
   </section>
 </template>
+
+<style>
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+</style>
