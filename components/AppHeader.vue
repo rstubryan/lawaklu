@@ -18,7 +18,7 @@ const items = [
 </script>
 
 <template>
-  <section id="navbar" class="flex justify-normal sticky top-0">
+  <section id="navbar" class="flex justify-normal sticky top-0 z-50">
     <div class="container mx-auto mt-6">
       <div
         class="mx-auto md:w-full w-80 md:h-16 h-10 bg-green-950 rounded-full md:flex md:justify-between md:items-center"
