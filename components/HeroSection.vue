@@ -48,9 +48,12 @@
             />
           </div>
           <div
-            class="absolute top-0 left-0 w-96 h-96 rounded-full bg-lime-400 opacity-40 flex flex-row ml-20 hover:opacity-0 transition duration-500 ease-in-out"
+            class="absolute top-0 left-0 w-96 h-96 rounded-full bg-gradient-to-l from-lime-400 opacity-60 flex flex-row ml-20 hover:opacity-0 transition duration-500 ease-in-out"
           ></div>
         </div>
+      </div>
+      <div class="flex flex-row mx-auto">
+        <NuxtImg src="/kebawah.png" class="w-96 h-96" />
       </div>
     </div>
   </div>

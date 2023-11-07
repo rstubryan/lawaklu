@@ -5,6 +5,9 @@
       <HeroSection />
     </div>
     <div class="mt-16">
+      <LogoPadding />
+    </div>
+    <div class="mt-16">
       <SpacingBar />
     </div>
   </div>
