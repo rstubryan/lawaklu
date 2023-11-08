@@ -28,7 +28,7 @@ const items = [
             class="text-white md:text-3xl text-2xl md:justify-start font-black items-center md:flex"
           >
             <NuxtLink
-              to="/login"
+              to="/"
               target="_blank"
               class="md:block hidden font-raleway"
               >Lawaklu</NuxtLink
@@ -47,13 +47,13 @@ const items = [
               <li
                 class="font-semibold ml-4 md:ml-0 md:mr-4 text-lime-400 hover:underline"
               >
-                <NuxtLink to="/login" target="_blank">Home</NuxtLink>
+                <NuxtLink to="/" target="">Home</NuxtLink>
               </li>
               <li class="font-semibold md:mr-4 text-white hover:underline">
-                <NuxtLink to="/register" target="_blank">Category</NuxtLink>
+                <NuxtLink to="/livestreaming" target="">Live Streaming</NuxtLink>
               </li>
               <li class="font-semibold md:mr-4 text-white hover:underline">
-                <NuxtLink to="/register" target="_blank">Category 2</NuxtLink>
+                <NuxtLink to="/register" target="">Category 2</NuxtLink>
               </li>
             </ul>
           </div>
