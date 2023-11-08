@@ -1,8 +1,8 @@
 <template>
   <div class="bg-green-950 w-full h-72 font-raleway">
     <div class="container mx-auto">
-      <div class="flex flex-row">
-        <div class="w-96 mt-20">
+      <div class="flex flex-row justify-between items-center">
+        <div class="w-96">
           <h2 class="text-4xl font-bold">
             lorem ipsum dolor sit amet consectetur adipisicing elit
           </h2>
@@ -21,6 +21,16 @@
             stroke-linecap="round"
           />
         </svg>
+        <div class="flex flex-row gap-32 mr-6">
+          <div>
+            <h3 class="text-xl font-bold">lorem ipsum</h3>
+            <p class="">lorem</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold">lorem ipsum</h3>
+            <p class="">lorem</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
