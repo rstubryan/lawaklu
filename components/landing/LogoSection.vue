@@ -6,7 +6,7 @@
       >
         lorem ipsum dolor sit
       </h1>
-      <div class="flex flex-row mt-4 justify-center">
+      <div class="flex flex-row mt-16 justify-center gap-10">
         <div class="w-36 h-8 relative flex justify-center items-center">
           <svg
             id="logo-38"
