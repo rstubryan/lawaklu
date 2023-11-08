@@ -4,7 +4,7 @@
       <LandingHeroSection />
     </div>
     <div class="mt-16">
-      <LandingLogoPadding />
+      <LandingLogoSection />
     </div>
     <div class="mt-16">
       <LandingSpacingBar />
