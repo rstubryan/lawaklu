@@ -1,5 +1,7 @@
 <template>
   <body class="bg-[#EDF3F1]">
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </body>
 </template>

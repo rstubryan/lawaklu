@@ -1,6 +1,5 @@
 <template>
   <div>
-    <AppHeader />
     <div class="mt-32">
       <IndexpHeroSection />
     </div>
