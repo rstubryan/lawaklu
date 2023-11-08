@@ -1,5 +1,5 @@
 <template>
-  <div class="container w-96">
+  <div class="container w-96 font-raleway">
     <UAlert
       icon="i-heroicons-command-line"
       color="primary"
@@ -9,3 +9,9 @@
     />
   </div>
 </template>
+
+<style>
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+</style>

@@ -60,9 +60,6 @@
 </template>
 
 <style>
-.font-lato {
-  font-family: "Lato", sans-serif;
-}
 .font-raleway {
   font-family: "Raleway", sans-serif;
 }

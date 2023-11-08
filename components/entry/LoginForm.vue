@@ -20,7 +20,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
 </script>
 
 <template>
-  <div class="flex items-center justify-center h-screen">
+  <div class="flex items-center justify-center h-screen font-raleway">
     <div class="mx-auto w-96 mt-8">
       <h1 class="text-black font-semibold text-center text-2xl mb-4">Login</h1>
       <UForm :validate="validate" :state="state" @submit="onSubmit">
@@ -49,3 +49,9 @@ async function onSubmit(event: FormSubmitEvent<any>) {
     </div>
   </div>
 </template>
+
+<style>
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+</style>
