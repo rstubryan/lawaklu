@@ -47,6 +47,7 @@
               class="rounded-full w-96 h-96 bg-lime-400"
             />
           </div>
+        </div>div
           <div
             class="absolute top-0 left-0 w-96 h-96 rounded-full bg-gradient-to-l from-lime-400 opacity-60 flex flex-row ml-20 hover:opacity-0 transition duration-500 ease-in-out"
           ></div>
