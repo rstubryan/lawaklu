@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="mt-32">
-      <IndexpHeroSection />
+      <LandingHeroSection />
     </div>
     <div class="mt-16">
-      <IndexpLogoPadding />
+      <LandingLogoPadding />
     </div>
     <div class="mt-16">
-      <IndexpSpacingBar />
+      <LandingSpacingBar />
     </div>
   </div>
 </template>
