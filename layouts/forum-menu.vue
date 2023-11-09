@@ -1,7 +1,7 @@
 <template>
   <div>
     <AppHeader />
-    <slot />
+    <ForumSidebarSection />
     <AppFooter />
   </div>
 </template>
