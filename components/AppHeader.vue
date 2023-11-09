@@ -53,7 +53,7 @@ const items = [
                 <NuxtLink to="/livestreaming" target="">Live Streaming</NuxtLink>
               </li>
               <li class="font-semibold md:mr-4 text-white hover:underline">
-                <NuxtLink to="/register" target="">Category 2</NuxtLink>
+                <NuxtLink to="/forum" target="">Forum</NuxtLink>
               </li>
             </ul>
           </div>
