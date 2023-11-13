@@ -45,14 +45,35 @@ const items = [
           >
             <ul class="md:flex gap-12">
               <li
-                class="font-semibold ml-4 md:ml-0 md:mr-4 text-lime-400 hover:underline"
+                :class="{
+                  'font-semibold ml-4 md:ml-0 md:mr-4 text-lime-400 hover:underline':
+                    $route.path === '/',
+                  'font-semibold md:mr-4 text-white hover:underline':
+                    $route.path !== '/',
+                }"
               >
                 <NuxtLink to="/" target="">Home</NuxtLink>
               </li>
-              <li class="font-semibold md:mr-4 text-white hover:underline">
-                <NuxtLink to="/livestreaming" target="">Live Streaming</NuxtLink>
+              <li
+                :class="{
+                  'font-semibold md:mr-4 text-lime-400 hover:underline':
+                    $route.path === '/livestreaming',
+                  'font-semibold md:mr-4 text-white hover:underline':
+                    $route.path !== '/livestreaming',
+                }"
+              >
+                <NuxtLink to="/livestreaming" target=""
+                  >Live Streaming</NuxtLink
+                >
               </li>
-              <li class="font-semibold md:mr-4 text-white hover:underline">
+              <li
+                :class="{
+                  'font-semibold md:mr-4 text-lime-400 hover:underline':
+                    $route.path === '/forum',
+                  'font-semibold md:mr-4 text-white hover:underline':
+                    $route.path !== '/forum',
+                }"
+              >
                 <NuxtLink to="/forum" target="">Forum</NuxtLink>
               </li>
             </ul>
