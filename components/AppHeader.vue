@@ -27,6 +27,7 @@ const items = [
           <div
             class="text-white md:text-3xl text-2xl md:justify-start font-black items-center md:flex"
           >
+            <NuxtImg src="/logo.png" class="md:w-16 md:h-16 w-10 h-10" />
             <NuxtLink
               to="/"
               target="_blank"
