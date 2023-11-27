@@ -9,9 +9,3 @@
     />
   </div>
 </template>
-
-<style>
-.font-raleway {
-  font-family: "Raleway", sans-serif;
-}
-</style>
