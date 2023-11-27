@@ -89,7 +89,7 @@ const items = [
               <UButton
                 icon="i-heroicons-plus"
                 size="sm"
-                color="lime"
+                color="primary"
                 square
                 variant="solid"
               />
@@ -98,11 +98,11 @@ const items = [
               <UDropdown
                 :items="items"
                 :popper="{ placement: 'bottom-start' }"
-                :ui="{ background: 'bg-green-950 text-lime-400' }"
+                :ui="{ background: 'bg-green-950 text-primary' }"
               >
                 <UButton
                   label="Profile"
-                  color="lime"
+                  color="primary"
                   variant="ghost"
                   trailing-icon="i-heroicons-chevron-down-20-solid"
                 />
