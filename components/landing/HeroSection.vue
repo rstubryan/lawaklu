@@ -43,7 +43,7 @@
         <div class="relative">
           <div class="z-10">
             <NuxtImg
-              src="/ketawa.png"
+              src="https://raw.githubusercontent.com/rstubryan/assets/master/gambar/lawaklu/ketawa.png"
               class="rounded-full w-96 h-96 bg-lime-400"
             />
           </div>
@@ -53,7 +53,10 @@
         </div>
       </div>
       <div class="flex flex-row mx-auto">
-        <NuxtImg src="/kebawah.png" class="w-96 h-96" />
+        <NuxtImg
+          src="https://raw.githubusercontent.com/rstubryan/assets/master/gambar/lawaklu/kebawah.png"
+          class="w-96 h-96"
+        />
       </div>
     </div>
   </div>
