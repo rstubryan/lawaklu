@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <div class="flex flex-row justify-between items-center">
         <div class="w-96">
-          <h2 class="text-4xl font-bold">
+          <h2 class="text-4xl font-bold text-white">
             lorem ipsum dolor sit amet consectetur adipisicing elit
           </h2>
         </div>
@@ -21,7 +21,7 @@
             stroke-linecap="round"
           />
         </svg>
-        <div class="flex flex-row gap-32 mr-6">
+        <div class="flex flex-row gap-32 mr-6 text-white">
           <div>
             <h3 class="text-xl font-bold">lorem ipsum</h3>
             <p class="">lorem</p>
