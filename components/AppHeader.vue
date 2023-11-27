@@ -19,11 +19,11 @@ const items = [
 
 <template>
   <section id="navbar" class="flex justify-normal sticky top-0 z-50">
-    <div class="container mx-auto mt-6">
+    <div class="container mx-auto py-6">
       <div
         class="mx-auto md:w-full w-80 md:h-16 h-10 bg-green-950 rounded-full md:flex md:justify-between md:items-center"
       >
-        <div class="flex md:ml-6" id="judul-kiri">
+        <div class="flex md:px-6" id="judul-kiri">
           <div
             class="text-white md:text-3xl text-2xl md:justify-start font-black items-center md:flex"
           >
@@ -50,19 +50,18 @@ const items = [
             <ul class="md:flex gap-12">
               <li
                 :class="{
-                  'font-semibold ml-4 md:ml-0 md:mr-4 text-lime-400 hover:underline border-b border-lime-400':
+                  'font-semibold ml-4 md:ml-0 md:mr-4 text-lime-400 border-b border-lime-400':
                     $route.path === '/',
-                  'font-semibold md:mr-4 text-white hover:underline':
-                    $route.path !== '/',
+                  'font-semibold md:mr-4 text-white ': $route.path !== '/',
                 }"
               >
                 <NuxtLink to="/" target="">Home</NuxtLink>
               </li>
               <li
                 :class="{
-                  'font-semibold md:mr-4 text-lime-400 hover:underline border-b border-lime-400':
+                  'font-semibold md:mr-4 text-lime-400  border-b border-lime-400':
                     $route.path === '/livestreaming',
-                  'font-semibold md:mr-4 text-white hover:underline':
+                  'font-semibold md:mr-4 text-white ':
                     $route.path !== '/livestreaming',
                 }"
               >
@@ -72,10 +71,9 @@ const items = [
               </li>
               <li
                 :class="{
-                  'font-semibold md:mr-4 text-lime-400 hover:underline border-b border-lime-400':
+                  'font-semibold md:mr-4 text-lime-400 border-b border-lime-400':
                     $route.path === '/forum',
-                  'font-semibold md:mr-4 text-white hover:underline':
-                    $route.path !== '/forum',
+                  'font-semibold md:mr-4 text-white': $route.path !== '/forum',
                 }"
               >
                 <NuxtLink to="/forum" target="">Forum</NuxtLink>
