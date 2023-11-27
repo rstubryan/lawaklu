@@ -11,24 +11,48 @@
             dolorem quasi blanditiis minima! Quod.
           </p>
         </div>
-        <div class="flex flex-row gap-32 text-green-950 justify-end mr-6">
-          <div class="grid">
+        <div class="flex gap-32 text-green-950 justify-end mr-6">
+          <div class="leading-loose">
             <h3 class="text-lg font-bold">Social Media</h3>
-            <NuxtLink to="/about">Facebook</NuxtLink>
-            <NuxtLink to="/about">Facebook</NuxtLink>
-            <NuxtLink to="/about">Facebook</NuxtLink>
+            <div class="py-4">
+              <div>
+                <NuxtLink to="/about">Facebook</NuxtLink>
+              </div>
+              <div>
+                <NuxtLink to="/about">Facebook</NuxtLink>
+              </div>
+              <div>
+                <NuxtLink to="/about">Facebook</NuxtLink>
+              </div>
+            </div>
           </div>
-          <div class="grid">
+          <div class="leading-loose">
             <h3 class="text-lg font-bold">Social Media</h3>
-            <NuxtLink to="/about">Facebook</NuxtLink>
-            <NuxtLink to="/about">Facebook</NuxtLink>
-            <NuxtLink to="/about">Facebook</NuxtLink>
+            <div class="py-4">
+              <div>
+                <NuxtLink to="/about">Facebook</NuxtLink>
+              </div>
+              <div>
+                <NuxtLink to="/about">Facebook</NuxtLink>
+              </div>
+              <div>
+                <NuxtLink to="/about">Facebook</NuxtLink>
+              </div>
+            </div>
           </div>
-          <div class="grid">
+          <div class="leading-loose">
             <h3 class="text-lg font-bold">Social Media</h3>
-            <NuxtLink to="/about">Facebook</NuxtLink>
-            <NuxtLink to="/about">Facebook</NuxtLink>
-            <NuxtLink to="/about">Facebook</NuxtLink>
+            <div class="py-4">
+              <div>
+                <NuxtLink to="/about">Facebook</NuxtLink>
+              </div>
+              <div>
+                <NuxtLink to="/about">Facebook</NuxtLink>
+              </div>
+              <div>
+                <NuxtLink to="/about">Facebook</NuxtLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>
