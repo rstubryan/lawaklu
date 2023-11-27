@@ -47,7 +47,7 @@ const items = [
             <ul class="md:flex gap-12">
               <li
                 :class="{
-                  'font-semibold ml-4 md:ml-0 md:mr-4 text-lime-400 hover:underline':
+                  'font-semibold ml-4 md:ml-0 md:mr-4 text-lime-400 hover:underline border-b border-lime-400':
                     $route.path === '/',
                   'font-semibold md:mr-4 text-white hover:underline':
                     $route.path !== '/',
@@ -57,7 +57,7 @@ const items = [
               </li>
               <li
                 :class="{
-                  'font-semibold md:mr-4 text-lime-400 hover:underline':
+                  'font-semibold md:mr-4 text-lime-400 hover:underline border-b border-lime-400':
                     $route.path === '/livestreaming',
                   'font-semibold md:mr-4 text-white hover:underline':
                     $route.path !== '/livestreaming',
@@ -69,7 +69,7 @@ const items = [
               </li>
               <li
                 :class="{
-                  'font-semibold md:mr-4 text-lime-400 hover:underline':
+                  'font-semibold md:mr-4 text-lime-400 hover:underline border-b border-lime-400':
                     $route.path === '/forum',
                   'font-semibold md:mr-4 text-white hover:underline':
                     $route.path !== '/forum',
