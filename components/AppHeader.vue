@@ -38,7 +38,7 @@ const items = [
               >Lawaklu</NuxtLink
             >
             <div
-              class="md:border-r-8 md:border-lime-400 md:h-16 md:ml-12 md:block hidden"
+              class="md:border-r-8 md:border-primary md:h-16 md:ml-12 md:block hidden"
               id="border"
             ></div>
           </div>
@@ -50,7 +50,7 @@ const items = [
             <ul class="md:flex gap-12">
               <li
                 :class="{
-                  'font-semibold ml-4 md:ml-0 md:mr-4 text-lime-400 border-b border-lime-400':
+                  'font-semibold ml-4 md:ml-0 md:mr-4 text-primary border-b border-primary':
                     $route.path === '/',
                   'font-semibold md:mr-4 text-white ': $route.path !== '/',
                 }"
@@ -59,7 +59,7 @@ const items = [
               </li>
               <li
                 :class="{
-                  'font-semibold md:mr-4 text-lime-400  border-b border-lime-400':
+                  'font-semibold md:mr-4 text-primary  border-b border-primary':
                     $route.path === '/livestreaming',
                   'font-semibold md:mr-4 text-white ':
                     $route.path !== '/livestreaming',
@@ -71,7 +71,7 @@ const items = [
               </li>
               <li
                 :class="{
-                  'font-semibold md:mr-4 text-lime-400 border-b border-lime-400':
+                  'font-semibold md:mr-4 text-primary border-b border-primary':
                     $route.path === '/forum',
                   'font-semibold md:mr-4 text-white': $route.path !== '/forum',
                 }"
@@ -89,7 +89,7 @@ const items = [
               <UButton
                 icon="i-heroicons-plus"
                 size="sm"
-                color="white"
+                color="lime"
                 square
                 variant="solid"
               />
@@ -102,7 +102,7 @@ const items = [
               >
                 <UButton
                   label="Profile"
-                  color="white"
+                  color="lime"
                   variant="ghost"
                   trailing-icon="i-heroicons-chevron-down-20-solid"
                 />

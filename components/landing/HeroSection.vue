@@ -5,8 +5,8 @@
         class="justify-start w-[600px] text-green-950 text-6xl font-extrabold font-raleway"
       >
         <h2>
-          <span class="bg-lime-400">Lawaklu</span> hadir dengan
-          <span class="bg-lime-400">Inovasi</span> baru
+          <span class="bg-primary">Lawaklu</span> hadir dengan
+          <span class="bg-primary">Inovasi</span> baru
         </h2>
         <div
           class="py-8 w-[550px] text-green-950 text-lg font-medium font-raleway leading-loose text-justify"
@@ -22,18 +22,20 @@
               <UButton
                 icon="i-heroicons-arrow-right-20-solid"
                 size="xl"
-                color="white"
+                color="primary"
                 variant="solid"
                 label="lorem"
+                :trailing="false"
               />
             </NuxtLink>
             <NuxtLink to="/addmemes" class="hidden md:block ml-4">
               <UButton
                 icon="i-heroicons-arrow-left-20-solid"
                 size="xl"
-                color="black"
+                color="white"
                 variant="solid"
                 label="lorem"
+                :trailing="false"
               />
             </NuxtLink>
           </div>
@@ -44,11 +46,11 @@
           <div class="z-10">
             <NuxtImg
               src="https://raw.githubusercontent.com/rstubryan/assets/master/gambar/lawaklu/ketawa.png"
-              class="rounded-full w-96 h-96 bg-lime-400"
+              class="rounded-full w-96 h-96 bg-primary"
             />
           </div>
           <div
-            class="absolute top-0 left-0 w-96 h-96 rounded-full bg-gradient-to-l from-lime-400 opacity-60 flex flex-row ml-20 hover:opacity-0 transition duration-500 ease-in-out"
+            class="absolute top-0 left-0 w-96 h-96 rounded-full bg-gradient-to-l from-primary opacity-60 flex flex-row ml-20 hover:opacity-0 transition duration-500 ease-in-out"
           ></div>
         </div>
       </div>
