@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="relative flex flex-row">
+    <div class="relative flex flex-row py-20">
       <div
         class="justify-start w-[600px] text-green-950 text-6xl font-extrabold font-raleway"
       >
@@ -9,34 +9,34 @@
           <span class="bg-lime-400">Inovasi</span> baru
         </h2>
         <div
-          class="mt-9 w-[550px] text-green-950 text-lg font-medium font-raleway leading-loose"
+          class="py-8 w-[550px] text-green-950 text-lg font-medium font-raleway leading-loose text-justify"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, a
-          necessitatibus officia fuga repellat laudantium eius voluptatibus
-          dicta aliquid similique fugiat reprehenderit atque veritatis accusamus
-          et illum rem vel accusantium!
-        </div>
-        <div class="flex flex-row">
-          <NuxtLink to="/addmemes" class="hidden md:block">
-            <UButton
-              icon="i-heroicons-arrow-right-20-solid"
-              size="xl"
-              color="white"
-              variant="solid"
-              label="lorem"
-              :trailing="true"
-            />
-          </NuxtLink>
-          <NuxtLink to="/addmemes" class="hidden md:block ml-4">
-            <UButton
-              icon="i-heroicons-arrow-left-20-solid"
-              size="xl"
-              color="black"
-              variant="solid"
-              label="lorem"
-              :trailing="true"
-            />
-          </NuxtLink>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, a
+            necessitatibus officia fuga repellat laudantium eius voluptatibus
+            dicta aliquid similique fugiat reprehenderit atque veritatis
+            accusamus et illum rem vel accusantium!
+          </p>
+          <div class="flex py-8">
+            <NuxtLink to="/addmemes" class="hidden md:block">
+              <UButton
+                icon="i-heroicons-arrow-right-20-solid"
+                size="xl"
+                color="white"
+                variant="solid"
+                label="lorem"
+              />
+            </NuxtLink>
+            <NuxtLink to="/addmemes" class="hidden md:block ml-4">
+              <UButton
+                icon="i-heroicons-arrow-left-20-solid"
+                size="xl"
+                color="black"
+                variant="solid"
+                label="lorem"
+              />
+            </NuxtLink>
+          </div>
         </div>
       </div>
       <div class="flex flex-row">

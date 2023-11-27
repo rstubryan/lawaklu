@@ -1,5 +1,7 @@
 <template>
-  <div class="container mx-auto font-raleway flex justify-center items-center">
+  <div
+    class="container mx-auto font-raleway flex justify-center items-center py-0"
+  >
     <section id="logo-hero" class="w-1/2 flex-col justify-center items-center">
       <h1
         class="text-2xl text-green-950 mx-auto justify-center items-center text-center"
