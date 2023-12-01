@@ -95,7 +95,7 @@ const items = [
                   variant="solid"
                 />
               </NuxtLink>
-              <div class="md:inline-flex hidden">
+              <div class="md:block hidden">
                 <UDropdown
                   :items="items"
                   :popper="{ placement: 'bottom-start' }"
