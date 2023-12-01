@@ -4,7 +4,7 @@
       <div class="relative md:flex md:flex-row md:py-20">
         <div class="w-full md:w-1/2 p-8 md:p-0 md:h-0 h-[650px]">
           <div
-            class="text-green-950 md:text-6xl text-4xl font-extrabold font-raleway container text-center"
+            class="text-green-950 md:text-6xl text-4xl font-extrabold font-raleway container md:text-start text-center"
           >
             <h2>
               <span class="bg-primary">Lawaklu</span> hadir dengan
