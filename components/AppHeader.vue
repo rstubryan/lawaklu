@@ -30,14 +30,13 @@ const items = [
             >
               <NuxtImg
                 src="https://raw.githubusercontent.com/rstubryan/assets/master/gambar/lawaklu/logo.png"
-                class="md:w-16 md:h-16 w-24 h-24"
+                class="md:w-16 md:h-16 w-24 h-24 md:block hidden"
               />
-              <NuxtLink
-                to="/"
-                target="_blank"
-                class="md:block hidden font-raleway"
-                >Lawaklu</NuxtLink
-              >
+              <div class="">
+                <NuxtLink to="/" target="_blank" class="font-raleway"
+                  >Lawaklu</NuxtLink
+                >
+              </div>
               <div
                 class="md:border-r-8 md:border-primary md:h-16 md:ml-12 md:block hidden"
                 id="border"

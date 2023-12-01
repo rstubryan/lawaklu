@@ -18,10 +18,10 @@
               </div>
             </div>
           </div>
-          <div id="konten-meme">
+          <div id="konten-meme" class="container">
             <div class="flex w-full h-full">
               <div class="ml-9 mr-9 mx-auto container">
-                <h2 class="text-2xl font-bold">Meme's Section</h2>
+                <h2 class="text-2xl font-bold">Memes</h2>
                 <div class="flex flex-col py-4 items-center">
                   <div class="bg-gray-400 h-96 w-full rounded-xl"></div>
                   <div class="flex gap-5">
