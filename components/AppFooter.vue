@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20 font-raleway">
+  <div class="py-10 font-raleway">
     <div class="container mx-auto">
       <div class="flex flex-row justify-between">
         <div class="justify-start text-green-950">
@@ -13,48 +13,55 @@
         </div>
         <div class="flex gap-32 text-green-950 justify-end mr-6">
           <div class="leading-loose">
-            <h3 class="text-lg font-bold">Social Media</h3>
+            <h3 class="text-lg font-bold">Lorem</h3>
             <div class="py-4">
               <div>
-                <NuxtLink to="/about">Facebook</NuxtLink>
+                <NuxtLink to="/about">Lorem</NuxtLink>
               </div>
               <div>
-                <NuxtLink to="/about">Facebook</NuxtLink>
+                <NuxtLink to="/about">Lorem</NuxtLink>
               </div>
               <div>
-                <NuxtLink to="/about">Facebook</NuxtLink>
+                <NuxtLink to="/about">Lorem</NuxtLink>
               </div>
             </div>
           </div>
           <div class="leading-loose">
-            <h3 class="text-lg font-bold">Social Media</h3>
+            <h3 class="text-lg font-bold">Lorem</h3>
             <div class="py-4">
               <div>
-                <NuxtLink to="/about">Facebook</NuxtLink>
+                <NuxtLink to="/about">Lorem</NuxtLink>
               </div>
               <div>
-                <NuxtLink to="/about">Facebook</NuxtLink>
+                <NuxtLink to="/about">Lorem</NuxtLink>
               </div>
               <div>
-                <NuxtLink to="/about">Facebook</NuxtLink>
+                <NuxtLink to="/about">Lorem</NuxtLink>
               </div>
             </div>
           </div>
           <div class="leading-loose">
-            <h3 class="text-lg font-bold">Social Media</h3>
+            <h3 class="text-lg font-bold">Lorem</h3>
             <div class="py-4">
               <div>
-                <NuxtLink to="/about">Facebook</NuxtLink>
+                <NuxtLink to="/about">Lorem</NuxtLink>
               </div>
               <div>
-                <NuxtLink to="/about">Facebook</NuxtLink>
+                <NuxtLink to="/about">Lorem</NuxtLink>
               </div>
               <div>
-                <NuxtLink to="/about">Facebook</NuxtLink>
+                <NuxtLink to="/about">Lorem</NuxtLink>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="mt-4">
+        <hr class="container mx-auto border-primary" />
+        <p class="text-center mt-10">
+          &copy; 2023 <span class="text-primary font-bold">Lawaklu</span>. All
+          rights reserved.
+        </p>
       </div>
     </div>
   </div>
