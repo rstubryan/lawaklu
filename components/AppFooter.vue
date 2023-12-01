@@ -4,7 +4,7 @@
       <div class="flex flex-row justify-between">
         <div class="justify-start text-green-950">
           <h2 class="font-semibold text-3xl">Lawaklu</h2>
-          <p class="w-96 text-base mt-4">
+          <p class="w-96 text-base mt-4 text-justify">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
             minus iusto tempora, quis aut ratione aspernatur aliquid non
             voluptates vitae! Asperiores soluta odio voluptatem voluptatum,
