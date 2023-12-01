@@ -19,7 +19,7 @@
                 voluptatibus dicta aliquid similique fugiat reprehenderit atque
                 veritatis accusamus et illum rem vel accusantium!
               </p>
-              <div class="flex py-8 gap-5 mx-auto justify-center">
+              <div class="flex py-8 gap-5 mx-auto md:justify-start justify-center">
                 <div>
                   <NuxtLink to="/addmemes" class="">
                     <UButton
