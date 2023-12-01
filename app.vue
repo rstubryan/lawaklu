@@ -1,9 +1,11 @@
 <template>
-  <body class="bg-[#EDF3F1]">
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-  </body>
+  <div>
+    <body class="bg-[#EDF3F1] font-raleway">
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+    </body>
+  </div>
 </template>
 
 <style>

@@ -20,6 +20,14 @@
           <div class="flex flex-col py-4 items-center">
             <div class="bg-gray-400 h-96 w-full rounded-xl"></div>
             <div class="flex gap-5">
+              <div class="py-4 flex">
+                <UAvatar
+                  size="lg"
+                  src="https://avatars.githubusercontent.com/u/739984?v=4"
+                  alt="Avatar"
+                />
+                <p class="p-2 text-lg">username</p>
+              </div>
               <div class="py-4">
                 <UButton
                   icon="i-heroicons-hand-thumb-up"
