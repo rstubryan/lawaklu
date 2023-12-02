@@ -1,7 +1,7 @@
 <template>
   <div>
     <AppHeader />
-    <ForumSidebarSection />
+    <ForumMemeSection />
     <AppFooter />
   </div>
 </template>
