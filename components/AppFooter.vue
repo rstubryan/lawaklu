@@ -63,7 +63,7 @@
           <div class="mt-5">
             <hr class="container mx-auto border-primary" />
             <div class="mt-5">
-              <p class="text-center">
+              <p class="text-center text-black">
                 &copy; 2023 <span class="text-primary font-bold">Lawaklu</span>.
                 All rights reserved.
               </p>
