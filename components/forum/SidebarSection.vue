@@ -2,7 +2,7 @@
   <div>
     <section id="sidebar">
       <div class="py-10">
-        <div class="container mx-auto flex">
+        <div class="container mx-auto md:flex">
           <div id="sidebar-kiri">
             <div class="flex flex-col w-[274px] h-full ml-9">
               <h2 class="text-2xl font-bold">Categories</h2>
@@ -19,7 +19,7 @@
             </div>
           </div>
           <div id="konten-meme" class="container">
-            <div class="flex w-full h-full">
+            <div class="flex w-full h-full md:py-0 py-8">
               <div class="ml-9 mr-9 mx-auto container">
                 <h2 class="text-2xl font-bold">Memes</h2>
                 <div class="flex flex-col py-4 items-center">
