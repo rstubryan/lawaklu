@@ -1,8 +1,8 @@
 <template>
   <div>
     <section id="footer">
-      <div class="py-10 font-raleway">
-        <div class="container mx-auto">
+      <div class="md:py-10 font-raleway">
+        <div class="container mx-auto md:p-0 p-8">
           <div class="md:flex flex-row justify-between">
             <div class="justify-start text-green-950">
               <h2 class="font-semibold text-3xl">Lawaklu</h2>
@@ -13,7 +13,9 @@
                 dolorem quasi blanditiis minima! Quod.
               </p>
             </div>
-            <div class="md:flex gap-32 text-green-950 md:justify-end mr-6">
+            <div
+              class="md:flex gap-32 text-green-950 md:justify-end md:mr-6 md:mt-0 mt-6"
+            >
               <div class="leading-loose">
                 <h3 class="text-lg font-bold">Lorem</h3>
                 <div class="py-4">
@@ -58,12 +60,14 @@
               </div>
             </div>
           </div>
-          <div class="mt-4">
+          <div class="mt-5">
             <hr class="container mx-auto border-primary" />
-            <p class="text-center mt-10">
-              &copy; 2023 <span class="text-primary font-bold">Lawaklu</span>.
-              All rights reserved.
-            </p>
+            <div class="mt-5">
+              <p class="text-center">
+                &copy; 2023 <span class="text-primary font-bold">Lawaklu</span>.
+                All rights reserved.
+              </p>
+            </div>
           </div>
         </div>
       </div>
