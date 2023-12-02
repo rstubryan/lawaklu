@@ -23,7 +23,45 @@
               <div class="ml-9 mr-9 mx-auto container">
                 <h2 class="text-2xl font-bold">Memes</h2>
                 <div class="flex flex-col py-4 items-center">
-                  <div class="bg-gray-400 h-96 w-full rounded-xl"></div>
+                  <div class="bg-gray-200 h-96 w-full rounded-xl"></div>
+                  <div class="flex gap-5">
+                    <div class="py-4 flex">
+                      <UAvatar
+                        size="lg"
+                        src="https://avatars.githubusercontent.com/u/739984?v=4"
+                        alt="Avatar"
+                      />
+                      <p class="p-2 text-lg">username</p>
+                    </div>
+                    <div class="py-4">
+                      <UButton
+                        icon="i-heroicons-hand-thumb-up"
+                        size="xl"
+                        color="primary"
+                        variant="solid"
+                        :trailing="false"
+                      />
+                    </div>
+                    <div class="py-4">
+                      <UButton
+                        icon="i-heroicons-hand-thumb-down"
+                        size="xl"
+                        color="primary"
+                        variant="solid"
+                        :trailing="false"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div id="konten-meme" class="container">
+            <div class="flex w-full h-full md:py-8 py-0">
+              <div class="ml-9 mr-9 mx-auto container">
+                <div class="flex flex-col md:py-4 items-center">
+                  <div class="bg-gray-200 h-96 w-full rounded-xl"></div>
                   <div class="flex gap-5">
                     <div class="py-4 flex">
                       <UAvatar
