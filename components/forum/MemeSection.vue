@@ -5,7 +5,7 @@
         <div class="container mx-auto md:flex">
           <div id="sidebar-kiri">
             <div class="flex flex-col w-[274px] h-full ml-9">
-              <h2 class="text-2xl font-bold">Categories</h2>
+              <h2 class="text-2xl font-bold text-black">Categories</h2>
               <div class="flex py-2">
                 <ul class="flex flex-col text-lg text-gray-600">
                   <li>
@@ -31,7 +31,7 @@
                         src="https://avatars.githubusercontent.com/u/739984?v=4"
                         alt="Avatar"
                       />
-                      <p class="p-2 text-lg">username</p>
+                      <p class="p-2 text-lg text-black">username</p>
                     </div>
                     <div class="py-4">
                       <UButton
@@ -69,7 +69,7 @@
                         src="https://avatars.githubusercontent.com/u/739984?v=4"
                         alt="Avatar"
                       />
-                      <p class="p-2 text-lg">username</p>
+                      <p class="p-2 text-lg text-black">username</p>
                     </div>
                     <div class="py-4">
                       <UButton
