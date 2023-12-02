@@ -1,7 +1,7 @@
 <template>
   <div>
     <AppHeader />
-    <slot />
+    <LivestreamLiveSection />
     <AppFooter />
   </div>
 </template>
