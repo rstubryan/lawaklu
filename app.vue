@@ -1,3 +1,9 @@
+<script setup>
+useHead({
+  title: "Lawaklu",
+});
+</script>
+
 <template>
   <div>
     <body class="bg-[#EDF3F1] font-raleway">

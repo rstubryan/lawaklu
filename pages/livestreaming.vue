@@ -2,6 +2,10 @@
 definePageMeta({
   layout: false,
 });
+
+useHead({
+  title: "Livestreaming",
+});
 </script>
 
 <template>
